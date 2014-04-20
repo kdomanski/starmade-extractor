@@ -1,6 +1,6 @@
 StarMade class serialisation extractor
 ======================================
 
-javac -cp .:StarMade.jar StarMadeExtractor.java
+javac StarMadeExtractor.java
 
-java -cp .:StarMade.jar StarMadeExtractor > classes.txt
+java StarMadeExtractor [path to StarMade.jar] > classes.txt
