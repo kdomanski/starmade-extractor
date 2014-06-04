@@ -10,7 +10,11 @@ import java.util.Arrays;
 public class StarMadeExtractor {
 
 	public static void main(String[] argv) {
-		String classes[] = {"org.schema.game.network.objects.NetworkShip"};
+		String classes[] = {
+			"org.schema.game.network.objects.NetworkShip",
+			"org.schema.game.network.objects.NetworkSegmentController",
+			"org.schema.game.network.objects.NetworkShop"
+		};
 		URLClassLoader loader = getLoader(argv[0]);
 
 		for (String cname : classes) {
@@ -61,3 +65,4 @@ public class StarMadeExtractor {
 		}
 	}
 }
+
