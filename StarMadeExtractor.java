@@ -14,7 +14,8 @@ public class StarMadeExtractor {
 			"org.schema.game.network.objects.NetworkShip",
 			"org.schema.game.network.objects.NetworkSegmentController",
 			"org.schema.game.network.objects.NetworkShop",
-			"org.schema.game.network.objects.NetworkSector"
+			"org.schema.game.network.objects.NetworkSector",
+			"org.schema.game.network.objects.NetworkPlayer"
 		};
 		URLClassLoader loader = getLoader(argv[0]);
 
