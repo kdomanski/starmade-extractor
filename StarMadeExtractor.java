@@ -13,7 +13,8 @@ public class StarMadeExtractor {
 		String classes[] = {
 			"org.schema.game.network.objects.NetworkShip",
 			"org.schema.game.network.objects.NetworkSegmentController",
-			"org.schema.game.network.objects.NetworkShop"
+			"org.schema.game.network.objects.NetworkShop",
+			"org.schema.game.network.objects.NetworkSector"
 		};
 		URLClassLoader loader = getLoader(argv[0]);
 
