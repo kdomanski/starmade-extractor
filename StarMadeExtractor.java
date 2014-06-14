@@ -65,7 +65,13 @@ public class StarMadeExtractor {
 			Arrays.sort(fields);
 
 			System.out.println("+" + c.getSimpleName());
-			for (String str : fields) {
+			for (int i=0; i<fields.length; ++i) {
+				String str = "";
+				if (i<10)
+					str += "0";
+				str += Integer.toString(i);
+				str += ": ";
+				str += fields[i];
 				System.out.println(str);
 			}
 			System.out.println("-" + c.getSimpleName());
