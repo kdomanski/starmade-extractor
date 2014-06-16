@@ -23,6 +23,7 @@ public class StarMadeExtractor {
 			"org.schema.game.network.objects.NetworkPlayerCharacter",
 			"org.schema.game.network.objects.NetworkPlayerHumanCharacter",
 			"org.schema.game.network.objects.NetworkGameState",
+			"org.schema.game.network.objects.TargetableAICreatureNetworkObject",
 			"org.schema.schine.network.objects.NetworkChat",
 			"org.schema.schine.network.objects.NetworkEntity"
 		};
